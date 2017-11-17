@@ -29,19 +29,31 @@ body {
 
 /***** HEADER *****/
 
-header h1 {
+header #nct {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 120px;
 	color: #005826;
 	padding: 20px, 0px,0px,0px;
-	margin-left: -5px;
+	margin-left: 100px;
+	margin-top: -10px;
 	text-decoration: underline;
+}
+
+header #care {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 120px;
+	color: #005826;
+	padding-top: -10px;
+	margin-top: -85px;
+	margin-left: 468px;
+	text-decoration: underline; 
 }
 
 nav {
 	float: left;
 	padding: 0px 20px;
 	margin-left: -20px;
+	margin-top: -55px;
 }
 
 nav ul li {
@@ -59,7 +71,7 @@ nav ul li a {
 header #logo {
 	padding: 20px, auto;
 	margin-left: 360px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 header h3 {
@@ -100,10 +112,20 @@ header h3 {
 	
 /***** ABOUT *****/
 
+#about h1 {
+	font-size: 70px;
+	font-family: 'Cormorant Garamond', serif;
+	color: #ffffff;
+	padding: 0px;
+	margin-left: 345px;
+	text-decoration: underline;
+}
+
 #about #selfie {
-	padding: 20px;
+	padding: 0px;
 	margin-left: 170px;
-	margin-top: 90px;
+	margin-top: 60px;
+	border: solid 10px #ffffff;
 }
 
 #about p {
@@ -115,7 +137,7 @@ header h3 {
 	font-size: 26px;
 	color: #ffffff;
 	padding: auto;
-	margin-left: 213px;
+	margin-left: 90px;
 }
 
 #about a {

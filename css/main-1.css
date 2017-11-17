@@ -1,0 +1,276 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'EB Garamond', serif;
+	background: linear-gradient(#ffffff, #005826, #023016); 
+}
+
+/****** GRID ******/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+.quarter-width {
+	width: 300px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+	font-size: 120px;
+	color: #005826;
+	padding: 20px, 0px,0px,0px;
+	margin-left: -5px;
+	margin-top: 30px;
+	text-decoration: underline;
+}
+
+nav {
+	float: left;
+	padding: 0px 20px;
+	margin-left: -20px;
+	margin-top: -55px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 28px;
+	color: #005826;
+	padding-left: 50px;
+}
+
+header #logo {
+	padding: 20px, auto;
+	margin-left: 375px;
+	margin-top: 10px;
+}
+
+header h3 {
+	font-size: 40px;
+	color: #005826;
+}
+
+/***** SERVICES *****/
+	
+#services h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 70px;
+	font-weight: 400;
+	text-decoration: underline;
+	padding: 20px; 
+	margin-left: 370px;
+	margin-top: 30px;
+	color: #000000;
+}
+
+#srvc-list {
+	font-size: 26px;
+	color: #000000;
+	padding: auto;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+
+#srvc-foot {
+	font-size: 26px;
+	color: #000000;
+	padding: auto;
+	margin-left: 75px;
+}
+
+#services a {
+	color:#000000;
+}
+	
+/***** ABOUT *****/
+
+#about h1 {
+	font-size: 70px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+	color: #ffffff;
+	padding: 0px;
+	margin-left: 345px;
+	text-decoration: underline;
+}
+
+#about #selfie {
+	padding: 0px;
+	margin-left: 170px;
+	margin-top: 60px;
+	border: solid 15px #ffffff;
+}
+
+#about p {
+	font-size: 26px;
+	color: #ffffff;
+}
+
+#about-foot {
+	font-size: 26px;
+	color: #ffffff;
+	padding: auto;
+	margin-left: 90px;
+}
+
+#about a {
+	color: #ffffff;
+}
+
+/***** REVIEWS *****/
+
+#reviews h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+	text-decoration: underline;
+	font-size: 70px;
+	padding-top: 40px;
+	margin-left: 75px;
+}
+
+#reviews h3 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+	font-size: 40px;
+	padding: 0px;
+	margin-left: 375px;
+	margin-top: 10px;
+}
+
+#reviews #collage {
+	background: url('../img/collage.png');
+	background-size: cover;
+	height: 800px;
+	width: 1400px;
+	border-radius: 20px;
+	margin-left: 40px;
+}
+
+#two-reviews, #thank-you{
+	font-size: 30px;
+	margin-left: 190px;
+}
+
+#one, #two, #four, #five{
+	padding: 5px;
+	width: 450px;
+	background: #ffffff;
+	background-size: cover;
+	margin: 20px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#three {
+	font-size: 30px;
+	width: 700px;
+	background: #ffffff;
+	background-size: cover;
+	padding: 5px;
+	clear: both;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#reviews-foot {
+	font-size: 26px;
+	padding: auto;
+	clear: both;
+	margin-left: 243px;
+}
+
+#reviews a {
+	color: #000000;
+}
+
+/***** ESTIMATES *****/
+
+#estimates h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+	text-decoration: underline;
+	font-size: 70px;
+	color: #ffffff;
+	padding: 20px;
+	margin-left: 95px;
+	clear: both;
+}
+
+#estimates p {
+	font-size: 26px;
+	width: 300px;
+	background: #ffffff;
+	background-size: cover;
+	padding: auto;
+	margin-left: 425px;
+	text-align: center;
+}
+
+#estimates h3 {
+	font-size: 30px;
+	background: #ffffff;
+	background-size: cover;
+	margin-left: 525px;
+	width: 80px;
+	text-align: center;
+}
+	
+#estimate-foot {
+	font-size: 26px;
+	color: #000000;
+	padding: auto;
+	margin-left: 213px;
+}
+
+#estimates a {
+	color: #000000;
+}
+	
+/***** CONTACT *****/
+
+#contact {
+	background: url('../img/trees.png');
+}
+
+#contact h2 {
+	font-size: 70px;
+	font-family: 'Cormorant Garamond', serif;
+	text-decoration: underline;
+	padding: 5px;
+	margin-left: 425px;
+	color: #000000;
+	font-weight: 400;
+}
+
+#contact h3 {
+	font-size: 30px;
+	display: inline-block;
+	padding: 5px;
+	margin-left: 225px;
+	color: #000000;
+	font-weight: 700;
+}
+
+#contact a {
+	color: #000000;
+}
